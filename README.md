@@ -14,7 +14,7 @@ This project uses Terraform to provision an EC2 instance on AWS running Ubuntu. 
  ```
 git clone https://github.com/Anarshtein/terraform-website
 ```
-2. Navigate to the project directory:
+2. Navigate to the project directory.
 3. Initialize Terraform:
 ```
 terraform init
