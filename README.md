@@ -11,15 +11,24 @@ This project uses Terraform to provision an EC2 instance on AWS running Ubuntu. 
 
 ## Usage
 1. Clone this repository to your local machine:
+ ```
 git clone https://github.com/Anarshtein/terraform-website
-
+```
 2. Navigate to the project directory:
 3. Initialize Terraform:
+```
 terraform init
-
+```
 4. Generate and review the Terraform execution plan to understand the changes that will be made:
-5. Once the provisioning is complete, access the EC2 instance via its public IP address or DNS name.
+```
+terraform plan
+```
+5. Apply the Terraform configuration to provision the resources:
+```
+terraform apply
+```
+6. Once the provisioning is complete, access the EC2 instance via its public IP address or DNS name.
 
-6. Fill out the form hosted by the Apache server with a username and password, then submit.
+7. Fill out the form hosted by the Apache server with a username and password, then submit.
 
-7. Verify that the submitted information is successfully stored in the MySQL database.
+8. Verify that the submitted information is successfully stored in the MySQL database.
