@@ -31,4 +31,9 @@ terraform apply
 
 7. Fill out the form hosted by the Apache server with a username and password, then submit.
 
-8. Verify that the submitted information is successfully stored in the MySQL database.
+8. Verify that the submitted information is successfully stored in the MySQL database. You can do it by connecting to the instance and executing the following commands through terminal:
+```
+sudo mysql
+USE web;
+SELECT * FROM register;
+```
